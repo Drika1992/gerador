@@ -1,0 +1,22 @@
+GNU nano 7.2           gerador.py
+import time
+def b():
+    print('\n')
+print('\033[31m')
+print('💳💳💳💳' * 20)
+n = ' GERADOR GOLD '
+print(n.center(67))
+b()
+
+print('mastercard [1]')
+print('visa [2]')
+print('elo [3]')
+n = int(input('opcao:'))
+if n == 1:
+    print(' gerando numeros de cc mastercard')
+    time.sleep(2)
+    print(' gerado com susseso informe a senha')
+
+else:
+    print('gerando elo')
+    print('bloqueado')
